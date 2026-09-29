@@ -29,5 +29,5 @@ kubectl get pods -o wide	Get detailed Pod information
 kubectl apply -f pod.yml	Create/update resources from YAML
 kubectl create -f pod.yml	Create resources from YAML
 kubectl delete pod nginx	Delete a specific Pod
-kubectl discribe pod nginx  It shows more information and status of the pod
+kubectl describe pod nginx  It shows more information and status of the pod
 kubectl logs nginx          It shows the Logs 
